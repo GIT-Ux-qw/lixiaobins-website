@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!-- 响应式导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">我的作品集</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 个人介绍区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="./img/shuai.jpg" alt="我的头像" class="avatar">
+            <h1>李小斌</h1>
+            <p class="title">前端开发热爱者 &游戏制作热爱者 </p>
+            <p class="description">在校大学生，专注设计两年半</p>
+            <button class="cta-button">查看我的作品</button>
+        </div>
+    </section>
+
+    <!-- 技能展示区域 -->
+    <section id="skills" class="skills-section">
+        <h2>我的技能</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h3>HTML5/CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress html">90%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress js">85%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>Unity3D</h3>
+                <div class="progress-bar">
+                    <div class="progress react">80%</div>
+                </div>
+            </div>
+            <div class="skill-item">
+                <h3>3DSMAX</h3>
+                <div class="progress-bar">
+                    <div class="progress ui">75%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目案例区域 -->
+    <section id="projects" class="projects-section">
+        <h2>项目案例</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./img/动漫网站.png" alt="项目1">
+                <h3>自制动漫网站</h3>
+                <p>无论是热血沸腾的战斗场面，还是细腻动人的情感故事，都能在这里找到共鸣，让你沉浸式漫游二次元世界 。</p>
+                <a href="#" class="project-link">查看详情</a>
+            </div>
+            <div class="project-card">
+                <img src="img/建模.png" alt="项目2" >
+                <h3>人物建模</h3>
+                <p>以神秘黑豹为原型，融合东方禅武精神，打造兼具野性与哲思的独特角色。</p>
+                <a href="#" class="project-link">查看详情</a>
+            </div>
+            <div class="project-card">
+                <img src="./img/游戏.png" alt="项目3">
+                <h3>2D游戏制作</h3>
+                <p>欢迎踏入这片充满惊喜与挑战的 2D 像素岛！岛屿被魔法迷雾笼罩，每个角落都藏着未知秘密。</p>
+                <a href="#" class="project-link">查看详情</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系表单区域 -->
+    <section id="contact" class="contact-section">
+        <h2>联系我</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">姓名</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">邮箱</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">消息</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">发送消息</button>
+        </form>
+    </section>
+
+    <!-- 页脚区域 -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 李小斌. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
